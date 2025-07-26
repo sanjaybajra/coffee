@@ -1,0 +1,508 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100%;
+  height: 100%;
+ 
+
+}
+.navbar{
+  height: 100px;
+   width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#logo{
+ font-size: 3vw;
+ font-weight: 800;
+padding-left: 4vw;
+ color: burlywood;
+}
+#select {
+  font-size: 1.2vw;
+  font-weight: 700;
+  gap:4vw;
+}
+#select i{
+ display: none;
+font-size: 1.6vw;
+font-weight: 800;
+}
+.navbar button{
+  font-size: 1.2vw;
+  padding: 0.7vw 1.4vw;
+  background-color: burlywood;
+  color: black;
+  border-radius: 5px;
+  font-weight: 700;
+margin-right: 2vw;
+  border: none;
+}
+
+#select{
+  display: flex;
+  gap:3vw;
+  align-items: center;
+}
+.content{
+  height: calc(100% - 100px);
+  width:100%;
+  display: flex;
+
+}
+#left{
+  height: 100%;
+  width: 50%;
+  
+  padding: 3vw 3vw;
+
+}
+#right{
+  width: 50%;
+
+  background-image: url("../image/new-1.png");
+  background-size: cover;
+  background-position: center;
+}
+#para{
+  display: flex;
+  gap:2vw;
+  align-items: center;
+}
+#para i{
+  font-size: 3vw;
+}
+#para p{
+  font-weight: bold;
+}
+#left h1{
+  font-size: 5vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#left p{
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-top: 1vw;
+  width: 80%;
+}
+#left button{
+   font-size: 1.2vw;
+  padding: 0.7vw 1.4vw;
+  background-color: burlywood;
+  color: black;
+  border-radius: 10px;
+  font-weight: 700;
+margin-right: 2vw;
+  border: none;
+  margin-top: 5vw;
+}
+
+h1 span{
+  color: burlywood;}
+@media (max-width: 600px) {
+  .navbar{
+    
+    height: 60px;
+  }
+  #logo{
+    font-size: 5vw;
+  }
+ #select a{
+  display: none;
+}
+#select  i{
+  display:block;
+  font-size: 4vw;
+}
+.navbar button{
+  font-size: 2vw;
+  padding: 0.7vw 1.4vw;
+  background-color: burlywood;
+  color: black;
+  border-radius: 5px;
+  font-weight: 700;
+
+  border: none;
+}
+.content{
+  height: calc(100% - 60px);
+  flex-direction: column;
+  width:100%
+}
+ #left{
+  width: 90vw;
+  height: 50%;
+  
+}
+
+ #right{
+  width: 100%;
+  height: 50%;
+ 
+}
+#para i{
+  font-size: 5vw;
+}
+#para p{
+  font-size: 4vw;
+}
+#left h1{
+  font-size: 8vw;
+}
+#left p{
+  font-size: 3vw;
+  width: 80%;
+}
+#left button{
+  font-size: 4vw;
+  padding: 2vw 2vw;
+  margin-top: 4vw;
+
+}
+#right{
+ 
+  width: 100%;
+  height: 50vh;
+}}
+#content-2{
+  position: relative;
+  margin-top: 1px;
+  width:100%;
+height: 10vh;
+ background-color:burlywood;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+#content-2 h3{
+  font-size: 2vw;
+  font-weight: 800;
+  color: black;
+}
+.menu{
+  background-image: url("../image/new-2.png");
+  background-size: cover;
+  background-position: center;
+  height: 9vh;
+  width: 9vw;
+}
+#content-3{
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  background-color:rgb(243, 176, 89);
+  display: flex;
+}
+#para-1{
+  height: 70vh;
+  width: 60%;
+}
+#btn-11{
+  padding: 1vw 2vw;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px #000000;
+  font-size: 1.5vw;
+  font-weight: bold;
+  margin-left: 4vw;
+  margin-top: 3vw;
+}
+#para-1 h4{
+  font-size: 5vw;
+  color: black;
+  font-weight: bolder;
+  margin-top: 5vw;
+  margin-left: 4vw;
+}
+h4 span{
+  color:white;
+
+}
+#p-1{
+  width: 80%;
+  margin-left: 4vw;
+  margin-top: 3vw;
+  color:white
+}
+.picture{
+  margin-top: 2px;
+  height: 70vh;
+  width: 40%;
+  background-image: url("../image/beans.png");
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 600px) {
+  #content-3{
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+  }
+  #para-1{
+    width: 95%;
+    height: 30vh;
+    margin-top: 2vw;
+    margin-left: 2vw;
+  }
+  #para-1 h4{
+   width: 70%;
+  }
+  .picture{
+    width: 100%;
+    height: 40vh;
+  }
+  #btn-11{
+    font-size: 3vw;
+    padding: 2vw 4vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+  }
+  #content-2 h3{
+    font-size: 3vw;
+  }
+  #content-2 .menu{
+    width: 14vw;
+    height: 9vh;
+  }
+}
+#content-4{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+   background-color:rgb(243, 176, 89);
+}
+#part-1{
+  width: 50%;
+  height: 100%;
+  
+}
+#part-2{
+  width: 50%;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  flex-direction: column;
+  
+ 
+}
+#part-2 .questions{
+  width:30vw;
+  height: 2vw;
+  background-color: rgb(151, 70, 11);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+  border-radius: 5px;
+  
+  }
+  #pic{
+    background-image: url("../image/heart-1.png");
+    background-size: cover;
+    background-position: center;
+    height: 47vh;
+    width: 30vw;
+    margin-top: 4vh;
+    margin-left: 12vw;
+  }
+  #part-1 h1{
+    margin-left: 5vh;
+    margin-top: 3vw;
+
+    font-size: 10vh;
+  }
+  @media (max-width: 600px) {
+    #content-4{
+      flex-direction: column;
+      width: 100%;
+      display: flex;
+      height: 50vh;
+     
+    }
+    #part-1{
+        height: 20vh;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+    } 
+
+    #part-1 h1{
+     
+      font-size: 5vw;
+      margin-left: 5vw;
+      margin-top: 3vw;
+    }
+    #part-2 .questions{
+      width: 80vw;
+      height: 5vh;
+      font-size: 3vw;
+    }
+    #pic{
+      width: 30vw;
+      height: 13vh;
+      margin-left: 0;
+    }
+    #part-2{
+      width: 100%;
+      height: 30vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+ #left h1{
+  animation-name: move;
+  animation-duration: 3s;
+  
+  animation-timing-function:ease-in-out ;
+ }
+ @keyframes move{
+  from{
+    left:5%;
+    opacity: 0;
+  }
+  to{
+    left: 40%;
+    opacity: 1;
+  }
+ }
+ #right{
+  animation-name: move1;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-timing-function:ease-in-out
+ }
+  @keyframes move1{
+    from{
+      opacity: 0;
+      
+    }
+    to{
+      opacity: 1;
+    
+    }
+  }
+
+
+
+
+
+  #content-5{
+    height: 70vh;
+    width: 100%;
+   background-color:rgb(243, 176, 89);
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  }
+
+  #statement{
+    width: 50%;
+    height: 80%;
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 2px solic white;
+  }
+  #statement h1{
+    font-size: 3vw;
+    width:80%;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+  #content-5 #statement h1 span{
+    color:rgba(168, 39, 39, 0.616);
+  }
+  #statement p{
+    font-size: 1.7vw;
+    width: 80%;
+    text-align: center;
+    color:white;
+    margin-bottom: 3vw;
+  }
+  #input{
+    width: 80%;
+    padding: 1vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1vw;
+  }
+  #input input{
+    width: 70%;
+    padding: 1vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2vw;
+    box-shadow:5px 5px 10px 1px #000000;
+  }
+  #statement button{
+    padding: 1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(151, 70, 11);
+    color: white;
+    font-size: 1.2vw;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 1px #000000;
+  }
+  @media (max-width: 600px) {
+   #content-5{
+     height: 50vh;
+     width: 100%;
+     flex-direction: column;
+   }
+   #statement{
+     width: 70%;
+     height: 40%;
+     padding: 2vw;
+   }
+   #statement h1{
+     font-size: 4vw;
+     width: 60%;
+   }
+    #statement p{
+     font-size: 3vw;
+     width: 60%;
+  }
+  #input{
+    width: 60%;
+    padding: 1vw;
+    display: flex;
+    
+    align-items: center;
+    gap: 1vw;
+  }
+  #input input{
+    width: 80%;
+    padding: 1vw;
+    font-size: 2vw;
+  }
+  #statement button{
+    padding: 1vw;
+    font-size: 2vw;
+  }
+}
