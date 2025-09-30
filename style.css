@@ -65,7 +65,7 @@ margin-right: 2vw;
 #right{
   width: 50%;
 
-  background-image: url("../image/new-1.png");
+  background-image: url("../image/new-1.webp");
   background-size: cover;
   background-position: center;
 }
@@ -187,7 +187,7 @@ height: 10vh;
   color: black;
 }
 .menu{
-  background-image: url("../image/new-2.png");
+  background-image: url("../image/new-2.webp");
   background-size: cover;
   background-position: center;
   height: 9vh;
@@ -235,7 +235,7 @@ h4 span{
   margin-top: 2px;
   height: 70vh;
   width: 40%;
-  background-image: url("../image/beans.png");
+  background-image: url("../image/beans.webp");
   background-size: cover;
   background-position: center;
 }
@@ -306,7 +306,7 @@ h4 span{
   
   }
   #pic{
-    background-image: url("../image/heart-1.png");
+    background-image: url("../image/heart-1.webp");
     background-size: cover;
     background-position: center;
     height: 47vh;
